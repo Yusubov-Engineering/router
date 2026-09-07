@@ -2,8 +2,6 @@ name: router_impl
 description: 'Implementation details of the Logger Module (go_router based)'
 version: 1.0.0
 
-resolution: workspace
-
 environment:
   sdk: ^3.11.5
   flutter: '>=1.17.0'
@@ -13,6 +11,10 @@ dependencies:
     sdk: flutter
   go_router: ^17.5.0
   router_api:
+    git:
+      url: git@github.com:Yusubov-Engineering/router.git
+      path: router_api
+      ref: v1.0.0
   material_ui: ^1.0.0
   dependency_injection_api:
     git:
