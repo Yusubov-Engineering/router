@@ -13,6 +13,10 @@ dependencies:
     sdk: flutter
   go_router: ^17.5.0
   router_api:
-  material_ui:
+  material_ui: ^1.0.0
   dependency_injection_api:
+    git:
+      url: git@github.com:Yusubov-Engineering/dependency_injection.git
+      path: dependency_injection_api
+      ref: v1.0.0
 
