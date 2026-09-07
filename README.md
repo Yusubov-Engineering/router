@@ -20,12 +20,12 @@ pinned to a tag:
 dependencies:
   router_api:
     git:
-      url: git@github.com:Yusubov-Engineering/router.git
+      url: https://github.com/Yusubov-Engineering/router.git
       path: router_api
       ref: v1.0.0
   router_impl:
     git:
-      url: git@github.com:Yusubov-Engineering/router.git
+      url: https://github.com/Yusubov-Engineering/router.git
       path: router_impl
       ref: v1.0.0
 ```
