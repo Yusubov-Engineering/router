@@ -35,12 +35,11 @@ dependency at `v1.0.0`) — see `router_impl/pubspec.yaml`.
 
 ## Local development
 
-The two packages share one pub workspace, declared in the root
-`pubspec.yaml`:
+Each package resolves independently — there is no shared workspace root:
 
 ```bash
-flutter pub get   # resolves both router_api and router_impl
-flutter analyze
+cd router_api && flutter pub get && flutter analyze && cd ..
+cd router_impl && flutter pub get && flutter analyze && cd ..
 ```
 
 ## Releasing
