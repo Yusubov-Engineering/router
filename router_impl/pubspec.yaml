@@ -1,6 +1,7 @@
 name: router_impl
 description: 'Implementation details of the Logger Module (go_router based)'
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ^3.11.5
